@@ -30,4 +30,4 @@ EXPOSE  8081
 ENV             MULE_BASE /opt/mule-standalone-3.6.1
 WORKDIR         /opt/mule-standalone-3.6.1
 
-CMD             /opt/mule-standalone-3.6.1/bin/mule
+#CMD             /opt/mule-standalone-3.6.1/bin/mule
