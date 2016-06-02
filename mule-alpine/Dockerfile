@@ -14,4 +14,6 @@ RUN tar -xzvf /opt/mule-standalone-3.8.0.tar.gz
 
 RUN rm -f /opt/mule-standalone-3.8.0/lib/boot/exec/wrapper-linux-x86-32
 
+RUN chmod +x /opt/mule-standalone-3.8.0/lib/boot/exec/wrapper-linux-x86-64
+
 CMD /opt/mule-standalone-3.8.0/bin/mule
