@@ -1,7 +1,7 @@
 FROM alpine:3.2
 
-RUN sudo apk add openjdk8-jre-lib 
-RUN sudo apk add openjdk8-jre-base 
+RUN apk add openjdk8-jre-lib 
+RUN apk add openjdk8-jre-base 
 RUN mkdir /opt 
 RUN adduser -D mule 
 RUN chown mule /opt
