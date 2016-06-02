@@ -3,7 +3,7 @@
 # Version:  mule-standalone-3.6.1 (community edition)
 # Based on:  dockerfile/java (Trusted Java from http://java.com)
 
-FROM                    FROM java:7
+FROM                    java:7
 
 # Mule installation:
 ADD                     https://repository.mulesoft.org/nexus/content/repositories/releases/org/mule/distributions/mule-standalone/3.6.1/mule-standalone-3.6.1.tar.gz /opt/
