@@ -1,6 +1,6 @@
 FROM alpine:3.2
 
-RUN apk add --update openjdk8-jre-lib && mkdir /opt && adduser -D mule && chown mule /opt
+RUN apk add openjdk8-jre-lib && apk add openjdk8-jre-base && mkdir /opt && adduser -D mule && chown mule /opt
 
 ADD https://repository.mulesoft.org/nexus/content/repositories/releases/org/mule/distributions/mule-standalone/3.8.0/mule-standalone-3.8.0.tar.gz /opt/
 
